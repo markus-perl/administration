@@ -16,7 +16,7 @@
   ],
   "scripts": {
     "postinstall": "patch-package",
-    "dev": "mode=development webpack-dev-server",
+    "dev": "mode=development webpack serve",
     "build": "mode=production webpack",
     "unit": "jest --config jest.config.js --ci",
     "unit-watch": "jest --config jest.config.js --watch",
